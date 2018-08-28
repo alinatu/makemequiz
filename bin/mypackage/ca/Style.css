@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.root {
+	-fx-background-color: #2d2d2d;
+	-fx-font-size: 12pt;
+}
+
+.label {
+	-fx-text-fill: #ffffff;
+}
+
+.button {
+	-fx-background-color: #ffffff;
+	-fx-border-style: none;
+	-fx-border-radius: 0;
+	
+}
+
+.button:hover {
+	-fx-cursor: hand;
+}
+
+.title{
+	-fx-font-family: "Lobster";
+	-fx-fill: #f2777a;
+}
+
+.answerMenu .label {
+	-fx-text-fill: #2d2d2d;
+}
+
+.startQuiz {
+	-fx-font-size: 24pt;
+	-fx-font-family: "Lobster";
+	-fx-text-fill: #f2777a;
+	/*-fx-background-color: #2d2d2d;*/
+}
+
+.next {
+	-fx-font-size: 24pt;
+	-fx-font-family: "Lobster";
+	-fx-text-fill: #6699cc;
+	/*-fx-background-color: #2d2d2d;*/
+}
+.correct {
+	-fx-font-family: "Lobster";
+	-fx-fill: #99cc99;
+}
+
+.wrong {
+	-fx-font-family: "Lobster";
+	-fx-fill: #f2777a;
+}
+
+.rndQuestion, .summary {
+	-fx-fill: #ffffff;
+}
+
+.export {
+	-fx-font-size: 24pt;
+	-fx-font-family: "Lobster";
+	-fx-text-fill: #6699cc;
+	/*-fx-background-color: #2d2d2d;*/
+}
